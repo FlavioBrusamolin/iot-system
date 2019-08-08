@@ -1,0 +1,33 @@
+<div class="container-fluid">
+    <div class="centro col-xs-10 col-sm-10 col-md-10 col-lg-10 col-xs-offset-1 col-sm-offset-1 col-md-offset-1 col-lg-offset-1">
+        <div class="row">
+            <div class="card col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-3">
+                <div class="row">
+                    <div class="col-lg-2 topo_card"><img src="images/temperatura.png" /></div>
+                    <div class="col-lg-10 topo_card">
+                        <h5 class="txt_card">Temperature</h5>
+                    </div>
+                </div>
+                <h2 class="informacao_card">{{home}}°C</h2>
+            </div>
+            <div class="card col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-offset-2 col-sm-offset-2 col-md-offset-2 col-lg-offset-2">
+                <div class="row">
+                    <div class="col-lg-2 topo_card"><img src="images/ventoinha.png" /></div>
+                    <div class="col-lg-10 topo_card">
+                        <h5 class="txt_card">Fan</h5>
+                    </div>
+                </div>
+                <h2 class="informacao_card">{{statusVent}}</h2>
+                <div class="row" id="power">
+                    <div class="col-lg-7" id="div_txt_power">
+                        <h5 id="txt_power">Power</h5>
+                    </div>
+                    <div class="col-lg-5" id="power_button_botao">
+                        <input id="switch-shadow" class="switch switch--shadow" type="checkbox" ng-model="power">
+                        <label for="switch-shadow"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,122 @@
+body {
+    background-color:#133148;
+}
+
+.centro {
+	background-color:transparent;
+	height:250px;
+	position:absolute;
+	top:50%;
+	margin-top:-125px;
+}
+
+.card {
+	height:250px;
+    background-color:#20405b;
+	border:1px solid #66afe9;
+	border-radius:15px;
+	text-align:center; 
+	padding-top:8px;
+	padding-left:14.5px; 
+	padding-right:14px; 
+	-webkit-box-shadow: 0px 0px 12px 4px rgba(78,137,184,0.39);
+	-moz-box-shadow: 0px 0px 12px 4px rgba(78,137,184,0.39);
+	box-shadow: 0px 0px 12px 4px rgba(78,137,184,0.39);
+}
+
+.topo_card {
+	text-align:left;
+	padding-left:5px;
+}
+
+.txt_card {
+	color:#eaeef1;
+	font-size:13px;
+	letter-spacing:0.3px;
+	margin-left:4px;
+}
+
+.informacao_card {
+	margin-top:60px;
+	color:#eaeef1;
+	font-size:28px;
+	margin-bottom:82px;
+}
+
+div#power {
+    border-top:1px solid #66afe9;
+}
+
+div#div_txt_power {
+	background-color:transparent;
+	text-align:left;
+}
+
+h5#txt_power {
+	color:#eaeef1;
+	font-size:15px;
+	letter-spacing:0.4px;
+}
+
+div#power_button_botao {
+	background-color:transparent;
+	padding-left:38px;
+    padding-right:0;
+    padding-top:7px;
+}
+
+.switch {
+	position:absolute;
+	margin-left:-9999px;
+	visibility:hidden;
+}
+
+.switch + label {
+	display:block;
+	position:relative;
+	cursor:pointer;
+	outline:none;
+	user-select:none;
+}
+
+.switch--shadow + label {
+	padding:2px;
+	width:40px;
+	height:20px;
+	background-color:#dddddd;
+	border-radius:60px;
+}
+
+.switch--shadow + label:before,
+.switch--shadow + label:after {
+	display:block;
+	position:absolute;
+	top:1.7px;
+	left:1.5px;
+	bottom:1px;
+	content:"";
+}
+
+.switch--shadow + label:before {
+	right:1px;
+	background-color:#f1f1f1;
+	border-radius:60px;
+	transition:all 0.4s;
+}
+
+.switch--shadow + label:after {
+	width:16px;
+	height:17px;
+	background-color:#fff;
+	border-radius:100%;
+	box-shadow:0 2px 5px rgba(0, 0, 0, 0.3);
+	transition:all 0.6s;
+}
+
+.switch--shadow:checked + label:before {
+    background-color: #8ce196;
+}
+
+.switch--shadow:checked + label:after {
+	transform:translateX(21px);
+}
